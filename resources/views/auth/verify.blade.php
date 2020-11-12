@@ -32,7 +32,7 @@
                     </div>
                     <div class="mt-5 text-center">
                         <p>Already have an account ? <a href="/login" class="text-primary"> Login </a> </p>
-                        <p>© {{  date('Y', strtotime('-2 year')) }} - {{  date('Y') }} Lexa. Crafted with <i class="mdi mdi-heart text-danger"></i> by Themesbrand</p>
+                        <p>© {{  date('Y', strtotime('-2 year')) }} - {{  date('Y') }} Time Manager. Crafted with <i class="mdi mdi-heart text-danger"></i> by Themesbrand</p>
                     </div>
                 </div>
             </div>

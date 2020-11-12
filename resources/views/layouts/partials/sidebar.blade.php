@@ -11,6 +11,68 @@
 
                         <li>
                             <a href="/dashboard/index" class="waves-effect">
+                                <i class="mdi mdi-view-dashboard"></i><span class="badge badge-pill badge-primary float-right"></span>
+                                <span>Dashboard</span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="/dashboard/index" class="waves-effect">
+                                <i class="mdi mdi-view-dashboard"></i>
+                                <span>Time Tracker</span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="{{ route('projects') }}" class="waves-effect">
+                                <i class="mdi mdi-view-dashboard"></i>
+                                <span>Projects</span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="{{ route('team') }}" class="waves-effect">
+                                <i class="mdi mdi-view-dashboard"></i>
+                                <span>Team</span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="{{ route('clients') }}" class="waves-effect">
+                                <i class="mdi mdi-view-dashboard"></i>
+                                <span>Clients</span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="{{ route('reports') }}" class="waves-effect">
+                                <i class="mdi mdi-view-dashboard"></i>
+                                <span>Reports</span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="/calendar/calendar" class=" waves-effect">
+                                <i class="mdi mdi-calendar-check"></i>
+                                <span>Calendar</span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="javascript: void(0);" class="waves-effect">
+                                <span class="badge badge-pill badge-danger float-right">2</span>
+                                <i class="mdi mdi-google-maps"></i>
+                                <span>Maps</span>
+                            </a>
+                            <ul class="sub-menu" aria-expanded="false">
+                                <li><a href="/maps/maps-google"> Google Map</a></li>
+                                <li><a href="/maps/maps-vector"> Vector Map</a></li>
+                            </ul>
+                        </li>
+
+
+                        {{-- <li>
+                            <a href="/dashboard/index" class="waves-effect">
                                 <i class="mdi mdi-view-dashboard"></i><span class="badge badge-pill badge-primary float-right">2</span>
                                 <span>Dashboard</span>
                             </a>
@@ -109,7 +171,7 @@
                             </ul>
                         </li>
 
-               
+
 
                         <li>
                             <a href="javascript: void(0);" class="has-arrow waves-effect">
@@ -198,7 +260,7 @@
                                     </ul>
                                 </li>
                             </ul>
-                        </li>
+                        </li> --}}
 
                     </ul>
                 </div>

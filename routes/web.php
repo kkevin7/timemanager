@@ -25,6 +25,10 @@ Route::get('/home', function () {
 });
 
 Route::get('/keep-live', "LexaAdmin@live");
+Route::get('/projects', "AdminController@projects")->name('projects');
+Route::get('/team', "AdminController@team")->name('team');
+Route::get('/clients', "AdminController@clients")->name('clients');
+Route::get('/reports', "AdminController@reports")->name('reports');
 
 // when render first time project redirect
 Route::get('/', function () {

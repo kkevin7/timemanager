@@ -14,7 +14,7 @@
                             </h3>
                             <div class="p-3">
                                 <h4 class="text-muted font-size-18 mb-1 text-center">Welcome Back !</h4>
-                                <p class="text-muted text-center">Sign in to continue to Lexa.</p>
+                                <p class="text-muted text-center">Sign in to continue to Time Manager.</p>
                                 <form method="POST" class="form-horizontal mt-4" action="{{ route('login') }}">
                                        @csrf
                                     <div class="form-group">
@@ -58,7 +58,7 @@
                     </div>
                     <div class="mt-5 text-center">
                         <p>Don't have an account ? <a href="/register" class="text-primary"> Signup Now </a></p>
-                        <p>© {{  date('Y', strtotime('-2 year')) }} - {{  date('Y') }} Lexa. Crafted with <i class="mdi mdi-heart text-danger"></i> by Themesbrand</p>
+                        <p>© {{  date('Y', strtotime('-2 year')) }} - {{  date('Y') }} Time Manager. Crafted with <i class="mdi mdi-heart text-danger"></i> by Themesbrand</p>
                     </div>
                 </div>
             </div>
